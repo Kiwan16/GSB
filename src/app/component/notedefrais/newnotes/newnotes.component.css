@@ -1,0 +1,30 @@
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid;
+
+}
+
+th {
+  border: 1px solid;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+td{
+    text-align : middle;
+}
+
+.checkbox-container input[type="checkbox"] {
+  vertical-align: middle;
+}
+
+.checkbox-container label {
+  vertical-align: middle;
+}
